@@ -14,14 +14,21 @@ using this dataset.
 
 The results were not the best in the first two approaches, mainly due for the characteristics of the dataset and the lack of data.
 
+## Concepts applied in this project:
+* Exploratory Data Analysis
+* Data Manipulation using Pandas
+* Data Visualization
+* Normalization
+* Hyperparameter Tuning
+* Regression models: Decision Tree, Random Forest, Support Vector Machine, Gradient Boosting
+
 ### Dataset and Modeling approaches:
 
 Our dataset contained many outliers that were critical for the real use, so they could not be all removed. However, using a different
 approach, we could a get a better solution for the prediction of the affected area from forest fire in Portugal. These are the different
 approaches:
 
-1. First, Decision Tree Regressor model gives us the best result with Mean Absolute Error around 5 when the most critical outliers
-were removed.
+1. First, Gradient Boosting proved to provide the best results.
 
 2. Our target (area [ha]) contained many zeros for different features, that affected the proper modeling of our data because it skewed the
 distribution of our dataset. Because of this, I set a different dataset where only the features that led to the ocurrence of forest
