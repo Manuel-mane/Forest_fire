@@ -21,6 +21,7 @@ The results were not the best in the first two approaches, mainly due for the ch
 * Normalization
 * Hyperparameter Tuning
 * Regression models: Decision Tree, Random Forest, Support Vector Machine, Gradient Boosting
+* Metrics Evaluation
 
 ### Dataset and Modeling approaches:
 
